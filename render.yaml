@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: todo-app
+    runtime: node
+    buildCommand: cd todo-app && npm install && npm run build:css
+    startCommand: cd todo-app && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    plan: free

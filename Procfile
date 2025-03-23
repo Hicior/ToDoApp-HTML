@@ -1,0 +1,1 @@
+web: cd todo-app && node server/server.js 
