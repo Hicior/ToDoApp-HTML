@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-app-dark text-gray-200;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}

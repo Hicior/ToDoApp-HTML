@@ -1,0 +1,62 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+.cursorrules
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# SQLite Database Files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.output/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.launch
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Tailwind CSS processed output
+# Uncomment if you want to ignore the generated CSS file
+# public/css/tailwind.css
+
+# Debug files
+.nyc_output/
+coverage/
+*.lcov
